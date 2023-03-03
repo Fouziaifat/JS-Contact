@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css?family-Poppins&family-Roboto&display=swap");
+*{
+    box-sizing: 0;
+    padding: 0;
+    margin: 0;
+    font-family: "poppins", sans-serif;
+}
+body{
+    background: #36454f;
+    height: 100vh;
+    max-width: 100%; 
+}
+.container {
+    background: #36454f;
+    width: 100%;
+    height: 100vh;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.container .contact_data{
+    background: #fff;
+    width: 600px;
+    border-radius: 02px;
+    border-top: 04px solid #47b2e4;
+    margin: 0 10px;
+}
+.container .contact_data form {
+    padding: 0 1rem;
+}
+.container .contact_data form input,textarea {
+    width: 95%;
+    margin: 05px 0 0 10px;
+    padding: 07px 10px;
+    border: 1px solid #ddd;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+.container .contact_data h2{
+    margin: 1.5rem;
+    border-bottom: 0.2rem #47b2e4 solid;
+    width: 25%;
+}
+.container .contact_data label {
+    display: block;
+    padding-top: 15px;
+    padding-left: 10px;
+}
+.container .contact_data button {
+    margin: 20px 10px;
+    border: none;
+    padding: 10px 20px;
+    background: #47b2e4;
+    font-size: 1rem;
+    border-radius: 05px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.container .contact_data button:hover{
+    background: #3498db;
+    transition: 0.3s;
+    color: #fff;
+}
+.container .contact_data2 {
+    background: #fff;
+    border-radius: 02px;
+    border-top: 04px solid #3498db;
+    width: 400px;
+    margin: 0 10px;
+}
+.container .contact_data2 ul {
+    list-style: none;
+}
+.container .contact_data2 ul li {
+    margin: 1.5rem 1rem;
+}
+.container .contact_data2 ul li i{
+    font-size: 1.4rem;
+    color: #47b2e4;
+}
+.container .contact_data2 ul li strong {
+    margin-left: 10px;
+    font-size: 1.2rem;
+}
+.container .contact_data2 ul li p {
+    font-size: 14px;
+    margin-left: 35px;
+}
+.container .contact_data2 .map iframe {
+    width: 90%;
+    height: 280px;
+    margin: 0 1rem;
+}
+@media(max-width: 1037) {
+    .container .contact_data .contact_data2 {
+        width: 80%;
+        margin: 10px 0px;
+    }
+    .container .contact_data h2 {
+        width: 50%;
+    }
+}
+@media(max-width: 768px){
+    .container .contact_data {
+        width: 75%;
+    }
+    .container .contact_data h2 {
+        width: 50%;
+    }
+}
